@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.eventcheckin.gaby.clockworktt.UserInfoUpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ic_avatar" />
+
+        <TextView
+            android:id="@+id/guest_profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="tap icon to set image"
+            android:textAlignment="center"
+            android:textColor="@color/almostWhite"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/userFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="First Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/stroke_oval_bg"
+        android:layout_marginBottom="5dp"
+        />
+
+    <EditText
+        android:id="@+id/userLastName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Last Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/stroke_oval_bg"
+        android:layout_marginBottom="5dp"
+        />
+
+    <EditText
+        android:id="@+id/userFbLink"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Facebook Username"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/stroke_oval_bg"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <Spinner
+        android:id="@+id/user_gender"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/stroke_oval_bg"
+        android:entries="@array/Gender"
+        android:paddingLeft="10dp"></Spinner>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Update"
+        android:textColor="@color/almostWhite"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>

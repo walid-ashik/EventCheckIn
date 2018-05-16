@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e3e3e</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#fd5d6b</color>
+    <color name="colorAccent2">#b71911</color>
+    <color name="black_overlay">#181818</color>
+    <color name="textColorHint">#b2b4b3</color>
+    <color name="almostWhite">#e6e6e6</color>
+    <color name="colorSignUp">#fd5d6b</color>
+    <color name="loginPageBGcolor">#292929</color>
+    <!-- Login page color -->
+    <color name="login_edit_text_bg">#2c2e35</color>
+</resources>

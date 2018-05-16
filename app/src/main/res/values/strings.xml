@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Event Check In</string>
+    <string name="facebook_app_id">786001514920394</string>
+    <string name="fb_login_protocol_scheme">fb786001514920394</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>
